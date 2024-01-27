@@ -2,7 +2,7 @@
 
 ## Overview
 
-This README provides instructions for installing, configuring, and managing the AutoGen Studio application using Docker Compose. For more information about AutoGen Studio, visit: https://microsoft.github.io/autogen/blog/2023/12/01/AutoGen Studio/
+This README provides instructions for installing, configuring, and managing the AutoGen Studio application using Docker Compose. For more information about AutoGen Studio, visit: https://microsoft.github.io/autogen/blog/2023/12/01/AutoGenStudio/
 
 ## Prerequisites
 
