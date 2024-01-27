@@ -1,0 +1,11 @@
+version: '3'
+services:
+  autogenstudio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${AUTOGEN_STUDIO_UI_PORT}:8081"
+    env_file:
+      - .env
+    restart: unless-stopped
