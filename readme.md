@@ -42,4 +42,4 @@ docker-compose up
 
 ## Important Note
 
-Please be mindful of your OpenAI API key usage when using AutoGen Studio. Excessive API usage may result in high charges. By using this application, you acknowledge and accept responsibility for monitoring and controlling your API usage.
+Please be mindful of your OpenAI (or any other provider) API key usage when using AutoGen Studio. Excessive API usage may result in high charges. By using this application, you acknowledge and accept responsibility for monitoring and controlling your API usage.
