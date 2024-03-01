@@ -8,6 +8,7 @@ ENV APP_HOME=/app \
 
 # Create the application directory and set it as the working directory
 WORKDIR $APP_HOME
+RUN mkdir /data
 
 # Copy the local code to the container
 COPY . $APP_HOME
@@ -19,4 +20,4 @@ RUN pip install autogenstudio
 RUN autogenstudio version
 
 # Set the default command for the container
-ENTRYPOINT ["autogenstudio", "ui", "--host", "0.0.0.0", "--port", "8081"]
+ENTRYPOINT ["autogenstudio", "ui", "--host", "0.0.0.0", "--port", "8081", "--appdir","/data"]
